@@ -14,3 +14,4 @@ opencv-python
 python-dotenv
 pyaudio
 pipwin
+googletrans==4.0.0rc1
