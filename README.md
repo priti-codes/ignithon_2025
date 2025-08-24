@@ -1,9 +1,7 @@
-# Ignithon 2025
-
-# Jarvis
+# ProjectX
 
 ## Introduction
-Our project, X, is an innovative intelligent assistant tailored to support students in their academic endeavors. By simply invoking the command `Jarvis`, students can ask any question and receive immediate assistance, making studying more interactive and efficient.Jarvis is designed to be a comprehensive study aid, combining advanced technology with user-friendly features to enhance the learning experience for students. 
+Our ProjectX, is an innovative intelligent assistant tailored to support students in their academic endeavors. By simply invoking the command `Jarvis`, students can ask any question and receive immediate assistance, making studying more interactive and efficient.Jarvis is designed to be a comprehensive study aid, combining advanced technology with user-friendly features to enhance the learning experience for students. 
 
 
 In addition to providing answers, Jarvis features a session tracker that helps students monitor the number of study sessions they have completed. This allows students to keep track of their progress and stay motivated. Another key feature is the distractor detection system, which identifies when a student is distracted and helps them stay focused on their studies.
@@ -46,20 +44,13 @@ The distractor detection feature helps you stay focused. If the system detects t
 7. <strong>Progress Monitoring:</strong> Students can track their study progress and stay motivated by checking their session tracker.
 8. <strong>Focus Enhancement:</strong> The distractor detection feature helps students maintain focus during their study sessions.
 
-## Team Members
-- [Adarsh Rout](https://www.linkedin.com/in/adarsh-rout-only568/)
-- [Sambit Mondal](https://linkedin.com/sambitm02)
-- [Tamoghna Bhattacharyya ] (https://www.linkedin.com/in/tamoghna-bhattacharyya-80872b331?trk=contact-info)
-- [Priti Barman] (https://www.linkedin.com/in/priti-barman-38b343333/)
-
 
 ## Installation
 
 <strong>Step 1:</strong> Clone the Repository:
 
 ```bash
-git clone https://github.com/Sambit-Mondal/Status-Code.git
-cd Status-Code
+git clone https://github.com/Sambit-Mondal/ignithon_2025.git
 ```
 <strong>Step 2:</strong> Install dependencies for both client and server:
 
@@ -67,14 +58,14 @@ cd Status-Code
 cd client
 npm install
 cd ../server
-npm install
+pip install -r requirements.txt
 ```
 
 <strong>Step 3:</strong> Configure environment variables:
 
 Create a `.env` file in the `client` and `server` directory
 Add your firebase configuration details in the `client` directory 
-Add your Porcupine access key and block key
+Add your Porcupine access key and Groq key and MongoDB URI in the `server` directory 
 
 <strong>Step 4:</strong> Start the development server:
 
@@ -86,7 +77,11 @@ npm start
 <strong>Step 5:</strong> Start the backend server:
 ```bash
 cd ../server
-npm start
+python app.py
 ```
 
-
+## Team Members
+- [Adarsh Rout](https://www.linkedin.com/in/adarsh-rout-only568/)
+- [Sambit Mondal](https://linkedin.com/sambitm02)
+- [Tamoghna Bhattacharyya ](https://www.linkedin.com/in/tamoghna-bhattacharyya-80872b331?trk=contact-info)
+- [Priti Barman](https://www.linkedin.com/in/priti-barman-38b343333/)
