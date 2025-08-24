@@ -50,7 +50,7 @@ The distractor detection feature helps you stay focused. If the system detects t
 <strong>Step 1:</strong> Clone the Repository:
 
 ```bash
-git clone https://github.com/Sambit-Mondal/ignithon_2025.git
+git clone https://github.com/priti-codes/ignithon_2025.git
 ```
 <strong>Step 2:</strong> Install dependencies for both client and server:
 
@@ -81,7 +81,7 @@ python app.py
 ```
 
 ## Team Members
-- [Adarsh Rout](https://www.linkedin.com/in/adarsh-rout-only568/)
+- [Adarsh Rout](https://www.linkedin.com/in/adarsh-rout-only568)
 - [Sambit Mondal](https://linkedin.com/sambitm02)
-- [Tamoghna Bhattacharyya ](https://www.linkedin.com/in/tamoghna-bhattacharyya-80872b331?trk=contact-info)
-- [Priti Barman](https://www.linkedin.com/in/priti-barman-38b343333/)
+- [Tamoghna Bhattacharyya](https://www.linkedin.com/in/tamoghna-bhattacharyya-80872b331)
+- [Priti Barman](https://www.linkedin.com/in/priti-barman-38b343333)
